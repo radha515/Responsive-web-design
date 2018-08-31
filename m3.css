@@ -1,0 +1,66 @@
+
+  .one{
+    display: flex;
+    justify-content: center;
+  }
+
+  .three{
+    display: flex;
+    justify-content: center;
+    }
+    .four{
+      dsplay:flex;
+      justify-content: center;
+    }
+    .five{
+      display:flex;
+      justify-content: center;
+    }
+    .six{
+      display:flex;
+      justify-content: center;
+    }
+    .eight{
+      display: flex;
+      justify-content: center;
+    }
+@media only screen and (min-width:425px) and (max-width:768px){
+  .one{
+    display: flex;
+    justify-content: center;
+  }
+
+  .three{
+    display: flex;
+    justify-content: center;
+    }
+    .four{
+      dsplay:flex;
+      justify-content: center;
+    }
+    .five{
+      display:flex;
+      justify-content: center;
+    }
+    .six{
+      display:flex;
+      justify-content: center;
+    }
+    .eight{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+.eight,img{
+ margin: 5px;
+}
+}
+@media only screen and (max-width:424px) {
+  .eight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+.eight,img{
+margin: 5px;
+}
